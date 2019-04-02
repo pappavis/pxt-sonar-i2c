@@ -1,4 +1,4 @@
-# pxt-sonar-i2c [![Build Status](https://travis-ci.org/Microsoft/pxt-sonar.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-sonar)
+# pxt-sonar-i2c [![Build Status](https://travis-ci.org/Microsoft/pxt-sonar.svg?branch=master)](https://travis-ci.org/pappavis/pxt-sonar-i2c)
 
 'n makecode pakket om sonar sensore (ping) soos HC-SR04met I2C uitbreiding PCF8574 te gebruik.
 Gewysigd deur #easylab4kids
