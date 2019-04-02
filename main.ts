@@ -7,6 +7,13 @@ enum PingUnit {
     Inches
 }
 
+enum I2Cadres {
+    adr_0X20 = 0X20,
+    adr_0X27 = 0X27,
+    adr_0X36 = 0X36,
+    adr_0X38 = 0X38,
+}
+
 /**
  * Sonar and ping utilities
  */
@@ -14,13 +21,14 @@ enum PingUnit {
 namespace sonar {
     /**
      * Send a ping and get the echo time (in microseconds) as a result
+     * @param adres i2c adres
      * @param trig tigger pin
      * @param echo echo pin
      * @param unit desired conversion unit
      * @param maxCmDistance maximum distance in centimeters (default is 500)
      */
-    //% blockId=sonar_ping block="ping trig %trig|echo %echo|unit %unit"
-    export function ping(trig: DigitalPin, echo: DigitalPin, unit: PingUnit, maxCmDistance = 500): number {
+    //% blockId=sonar_ping block="ping trig %trig|echo %echo|unit %unit|adres %adres"
+    export function ping(adres: I2Cadres, trig: DigitalPin, echo: DigitalPin, unit: PingUnit, maxCmDistance = 500): number {
         // send pulse
         pins.setPull(trig, PinPullMode.PullNone);
         pins.digitalWritePin(trig, 0);
