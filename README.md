@@ -1,9 +1,9 @@
 # pxt-sonar-i2c [![Build Status](https://travis-ci.org/Microsoft/pxt-sonar.svg?branch=master)](https://travis-ci.org/pappavis/pxt-sonar-i2c)
 
-'n makecode pakket om sonar sensore (ping) soos HC-SR04met I2C uitbreiding PCF8574 te gebruik.
+'n makecode pakket om sonar sensore (ping) soos HC-SR04met I2C uitbreiding PCF8574 te gebruik.<br/><br/>
 Gewysigd deur #easylab4kids
 
-## Usage
+## Gebruik
 
 This package contains a ``ping`` block that can return the distance to an obstacle detected by the sonar.
 
@@ -28,6 +28,8 @@ MIT
 ## Supported targets
 * for PXT/microbit
 * for PXT/calliope
+* for PXT/Circuit Playground Express
+
 (The metadata above is needed for package search.)
 
 
@@ -35,3 +37,6 @@ MIT
 
     This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
+<br/><br/>
+I2C versie door Michiel Erasmus #easylab4kids
+<br/><br/>
