@@ -1,6 +1,6 @@
 # pxt-sonar [![Build Status](https://travis-ci.org/Microsoft/pxt-sonar.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-sonar)
 
-A MakeCode package to use sonar sensors (ping) such as the HC-SR04.
+A MakeCode package to use sonar sensors (ping) such as the HC-SR04 on I2C expanders such as PCF8574.
 
 ## Usage
 
