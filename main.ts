@@ -32,7 +32,7 @@ namespace sonar {
      * @param unit desired conversion unit
      * @param maxCmDistance maximum distance in centimeters (default is 500)
      */
-    //% blockId=sonar_ping block="ping adres %adres|trig %trig|echo %echo|unit %unit"
+    //% blockId=sonar_ping block="ping I2Cadres %adres|trig %trig|echo %echo|unit %unit"
     export function ping(adres: I2Cadres, trig: DigitalPin, echo: DigitalPin, unit: PingUnit, maxCmDistance = 500): number {
         // send pulse
         var _startPulse = Date.now();
